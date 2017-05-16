@@ -3,7 +3,7 @@ html *{
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     outline: 0;
     text-size-adjust: none;
-    font-family: "微软雅黑";
+    font-family: '微软雅黑';
 }
 *{
     margin: 0;

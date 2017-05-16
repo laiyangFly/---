@@ -142,37 +142,37 @@ function check(n){
         }
     }
 }
-//设置来源URL
-if(getCookie("Url")==null){
-    var ref = "";//来源网址
-    if (document.referrer.length > 0) {
-        ref = document.referrer;
-    }else if(opener.location.href.length > 0) {
-        ref = opener.location.href;
-    }
-    var domain=getDomain(ref);//域名
-    setCookie("Url", domain);//写入Cookies
-    //找关键词
-    var st=0;//开始位置
-    if(ref.indexOf('query=',1)>0){//sogou
-        st=ref.indexOf('query=',1)+6;
-    }else if(ref.indexOf('search=',1)>0){//gougou
-        st=ref.indexOf('search=',1)+7;
-    }else if(ref.indexOf('w=',1)>0){//soso
-        st=ref.indexOf('w=',1)+2;
-    }else if(ref.indexOf('q=',1)>0){//google、yodao、bing、yahoo、360
-        st=ref.indexOf('q=',1)+2;
-    }else if(ref.indexOf('word=',1)>0){//百度手机
-        st=ref.indexOf('word=',1)+5;
-    }else if(ref.indexOf('keyword=',1)>0){//m.sogou.com
-        st=ref.indexOf('keyword=',1)+8;
-    }else{
-        st=0;
-    }
-    if(st>0){
-        setCookie("KeyWord", getKeyWord(ref,st));//写入Cookies
-    }
-}//设置来源URL
+// //设置来源URL
+// if(getCookie("Url")==null){
+//     var ref = "";//来源网址
+//     if (document.referrer.length > 0) {
+//         ref = document.referrer;
+//     }else if(opener.location.href.length > 0) {
+//         ref = opener.location.href;
+//     }
+//     var domain=getDomain(ref);//域名
+//     setCookie("Url", domain);//写入Cookies
+//     //找关键词
+//     var st=0;//开始位置
+//     if(ref.indexOf('query=',1)>0){//sogou
+//         st=ref.indexOf('query=',1)+6;
+//     }else if(ref.indexOf('search=',1)>0){//gougou
+//         st=ref.indexOf('search=',1)+7;
+//     }else if(ref.indexOf('w=',1)>0){//soso
+//         st=ref.indexOf('w=',1)+2;
+//     }else if(ref.indexOf('q=',1)>0){//google、yodao、bing、yahoo、360
+//         st=ref.indexOf('q=',1)+2;
+//     }else if(ref.indexOf('word=',1)>0){//百度手机
+//         st=ref.indexOf('word=',1)+5;
+//     }else if(ref.indexOf('keyword=',1)>0){//m.sogou.com
+//         st=ref.indexOf('keyword=',1)+8;
+//     }else{
+//         st=0;
+//     }
+//     if(st>0){
+//         setCookie("KeyWord", getKeyWord(ref,st));//写入Cookies
+//     }
+// }//设置来源URL
 //获取关键词
 function getKeyWord(url,st){
     var en =  url.indexOf('&', st);

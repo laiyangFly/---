@@ -3,14 +3,16 @@
 ul{
   list-style: none;
 }
-body{background: #f6f6f6}
-.header{  width: 100%;  height: 200px;background:url(../images/topBg.png) repeat;}
+body{background:url(../images/bg.png) repeat;position: relative}
+.img3_bg{background:url(../images/pubImg.png) no-repeat;height:277px;width:195px;background-position:0 -946px;position: absolute;right: 0;top:195px}
+.img4_bg{background:url(../images/pubImg.png) no-repeat;height:282px;width:178px;background-position:0 -664px;position: absolute;left: 0;bottom: 246px}
+.header{  width: 100%;  height: 200px;background:url(../images/topBg.png) repeat;position: relative;z-index: 200}
 .header .float_left a{display: inline-block;background:url(../images/pubImg.png) no-repeat;height:162px;width:160px;background-position:0 -502px;margin-top: 19px}
 .header .float_right div{padding: 10px 23px 0;margin-top: 20px;background:url(../images/pubImg.png) no-repeat;height:86px;width:264px;background-position:0 -1223px;}
 .header .float_right div p{text-align: right;  font-size: 16px;  line-height: 2;  color: #f9c41e;}
 .header .float_right span{  display: inline-block;text-align: center;margin-top: 36px;width: 268px;height: 42px;background-color: #f9c41e;font-size: 18px;color: #2e3200;line-height: 42px;  }
 .wrap{width: 1000px;margin: 0 auto}
-.nav{  height: 46px;  background-color: #92947B;}
+.nav{  height: 46px;  background-color: #92947B;position: relative;z-index: 200}
 .nav ul{width: 800px;margin: 0 auto}
 .nav ul li{ float: left;width: 100px;text-align: center;font-size: 15px;line-height: 46px;position: relative}
 .nav ul li a{cursor: pointer;}
@@ -19,7 +21,7 @@ body{background: #f6f6f6}
 .nav ul li div p:first-child{text-align: center;width: 100%;height: 6px;line-height: 0}
 .nav ul li div p:first-child i{display: inline-block;background:url(../images/pubImg.png) no-repeat;height:5px;width:10px;background-position:0 0;}
 .nav ul li div p:last-child{width: 100%;background-color: #92947B;}
-.nav ul li div a{display: block;margin: 0 10px;font-size: 13px;}
+.nav ul li div a{display: block;margin: 0 10px;font-size: 13px;height: 35px;line-height: 35px}
 .nav ul li div a:hover{background: #f9c41e;}
 .banner{position: relative}
 .banner .swiper-container{width: 100%;height: 400px}
