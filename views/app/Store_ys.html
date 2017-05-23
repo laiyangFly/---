@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title style="text-align: center;">案列</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/app-phone.css" />
+    <!--忽略数字识别电话号码-->
+    <meta name="format-detection" content="telephone=no" />
+    <!--改变顶部状态栏颜色-->
+</head>
+
+<body>
+<div class="header">
+    <div class="nav fl">
+        <a class="nav-btn"><img src="../../assets/images/app/img6.png"></a>
+        <ul>
+            <li><a href="AboutUs.html">公司简介</a></li>
+            <li><a href="Join.html">招商加盟</a></li>
+            <li><a href="Brand.html">品牌实力</a></li>
+            <li><a href="Store.html">分店展示</a></li>
+            <li><a href="Dish.html">特色菜品</a></li>
+            <li><a href="News.html">新闻中心</a></li>
+            <li><a href="contactUs.html">联系我们</a></li>
+        </ul>
+    </div>
+    <a class="name" href="index.html"><img src="../../assets/images/app/logo3.png"></a>
+    <a class="fr tel" href="tel:13808185982"><img src="../../assets/images/app/icon_phone.png"></a>
+</div>
+<div class="banner">
+    <img src="../../assets/images/app/banner.png">
+</div>
+<div class="tel-wrap">全国加盟电话：400-004-2282 13808185982</div>
+<div class="list-item">
+    <a href="Store_al.html"><img src="../../assets/images/app/icon_1.png"><p>案例</p></a>
+    <a href="Store_ts.html"><img src="../../assets/images/app/icon_2.png"><p>特色</p></a>
+    <a href="Brand.html"><img src="../../assets/images/app/icon_3.png"><p>实力</p></a>
+    <a href="Store_kb.html"><img src="../../assets/images/app/icon_4.png"><p>口碑</p></a>
+    <a href="Store_jmf.html"><img src="../../assets/images/app/icon_5.png" style="width: 35px"><p>加盟费</p></a>
+    <a href="Store_ys.html"><img src="../../assets/images/app/icon_6.png"><p>预算</p></a>
+    <a href="Store_tj.html"><img src="../../assets/images/app/icon_7.png"><p>条件</p></a>
+    <a href="Store_zc.html"><img src="../../assets/images/app/icon_8.png"><p>支持</p></a>
+    <a href="Store_lc.html"><img src="../../assets/images/app/icon_9.png"><p>流程</p></a>
+    <a href="contactUs.html"><img src="../../assets/images/app/icon_10.png"><p>留言</p></a>
+</div>
+<div class="memo">
+    <h1>火锅店加盟需要多少钱？</h1>
+    <p> 关于火锅店的投资，涉及很多费用开支，没有经验的投资很难估算出开一个火锅店需要多少钱，有哪些是必须的费用开支，哪些是不必要的开支。以下是味蜀吾老火锅经过多年的开店经验总节的一套预算公式，您只需要简单的选择所在的城市，经营面积就可以方便快速的预算出开一家火锅店要多少钱，投资回报期是多久，以及有各项费用明细，保证金多少钱，员工工资要多少钱，火锅桌椅餐具费用，火锅店加盟费多少钱等各种费用明细。</p>
+    <div class="ys">
+        <form name="myform" id="myform" method="post">
+            <input type="hidden" value="Save" name="action">
+            <input type="hidden" value="1" name="id">
+            <input type="hidden" value="" name="m">
+            <input type="hidden" value="" name="d">
+            <input type="hidden" value="" id="tousername" name="tousername">
+            <input type="hidden" id="KS_Url" name="KS_Url" value="">
+            <input type="hidden" id="KS_Keyword" name="KS_Keyword" value="">
+            <input type="hidden" id="KS_Content" name="KS_Content" value="【预算】">
+            <h2>2017年投资火锅店成本/回收期，快速计算器。</h2>
+            城市：<input type="text" id="KS_City" name="KS_City" value=""><br>
+            面积：<input type="text" id="KS_Area" name="KS_Area" value="" style="width:40px;"> m<sup>2</sup> 房租：<input type="text" id="rent" name="rent" value="0" style="width:30px;"> 万<br>
+            房租跟据实际情况填写，可不填。<br>
+            电话：<input type="text" id="KS_Tel" name="KS_Tel" value=""><br>
+            姓名：<input type="text" id="KS_Name" name="KS_Name" value=""><br>
+            <input type="button" value="计算" name="button" id="submit" onclick="return(check(3));"><br>
+            <span id="info"></span><br>
+            注：如需更详细准确的预算表请给我们留言！<a href="/Item/list.asp?id=1522">点击留言&gt;&gt;</a>
+        </form>
+    </div>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb">
+        <tbody><tr>
+            <td colspan="4" align="center" class="th">火锅店加盟投资费用计算器</td>
+        </tr>
+        <tr>
+            <td width="40%" align="right">地区：</td>
+            <td width="60%"><span id="cityTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">收银系统：</td>
+            <td><span id="xtTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">加盟费：</td>
+            <td><span id="jmTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">保证金：</td>
+            <td><span id="bzTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">面积：</td>
+            <td><span id="areaTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">铺面租金：</td>
+            <td><span id="rentTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">装修费：</td>
+            <td><span id="zxTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">设计费：</td>
+            <td><span id="designTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">桌数：</td>
+            <td><span id="zsTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">餐桌/餐椅/餐柜/菜架：</td>
+            <td><span id="czTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">锅、锅圈、电磁炉：</td>
+            <td><span id="gzTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">厨具：</td>
+            <td><span id="cjTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">餐具：</td>
+            <td><span id="cajTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">杂件：</td>
+            <td><span id="zajTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">调味品备货：</td>
+            <td><span id="bhTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">菜品备货费：</td>
+            <td><span id="bcTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">员工宿舍租金：</td>
+            <td><span class="ssTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">员工招聘培训费：</td>
+            <td><span id="pxTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">前期宣传费：</td>
+            <td><span id="ggTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">预计总投资：</td>
+            <td><span id="totalTxt"></span></td>
+        </tr>
+        </tbody></table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb">
+        <tbody><tr>
+            <td colspan="4" align="center" class="th">火锅店加盟投资回报期计算器</td>
+        </tr>
+        <tr>
+            <td align="right" width="40%">上桌率：</td>
+            <td width="60%"><select name="select" id="sklTxt">
+                <option value="2">200%</option>
+                <option value="1.5">150%</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td align="right">餐位数：</td>
+            <td><span id="popleTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">人均消费：</td>
+            <td><span id="xfTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">月营业额：</td>
+            <td><span id="MoonYYTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">综合毛利：</td>
+            <td><span id="mlTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">月毛利：</td>
+            <td><span id="MoonMLTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">水电气费：</td>
+            <td><span id="sdqTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">杂费：</td>
+            <td><span id="zfTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">税金：</td>
+            <td><span id="sjTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">服务费：</td>
+            <td><spaq id="fwTxt"></spaq></td>
+        </tr>
+        <tr>
+            <td align="right">工资：</td>
+            <td><span id="rgTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">员工宿舍租金：</td>
+            <td><span class="ssTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">月利润：</td>
+            <td><span id="MoonJLTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">年利润：</td>
+            <td><span id="YearJLTxt"></span></td>
+        </tr>
+        <tr>
+            <td align="right">回报期：</td>
+            <td colspan="3"><span id="hbTxt"></span></td>
+        </tr>
+        </tbody></table>
+    <p><br>
+        注意：<br>
+        ●店铺面积可以根据自己实际面积手动填写。<br>
+        ●如果自有店面不需要租金可在租金项手动填0即可减掉租金项。<br>
+        ●投资回报期中的上客率是按味蜀吾老火锅160家店综合范围（150%和200%）来计算的，可以点击修改。<br>
+        ●投资自助计算器按味蜀吾老火锅加盟店通常情况下大致估算，如果需更准确详细的预算可以<b>联系我们（免费电话：400-004-2282）</b>，我们招商经理可以根据你的实际情况做更准确的预算。</p>
+    <div class="img3"><img src="../../assets/images/example/cj6.jpg"><img src="../../assets/images/example/cj6.jpg"><img src="../../assets/images/example/cj6.jpg"></div>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb">
+        <tbody><tr>
+            <td colspan="4" align="center" class="th">味蜀吾老火锅200、300、500m<sup>2</sup>营业面积投资费用表</td>
+        </tr>
+        <tr>
+            <td width="40%" align="right"><b>营业面积：</b></td>
+            <td width="20%"><b>200m<sup>2</sup></b></td>
+            <td width="20%"><b>300m<sup>2</sup></b></td>
+            <td width="20%"><b>500m<sup>2</sup></b></td>
+        </tr>
+        <tr>
+            <td align="right">加盟费：</td>
+            <td>20万</td>
+            <td>20万</td>
+            <td>20万</td>
+        </tr>
+        <tr>
+            <td align="right">保证金：</td>
+            <td>5万</td>
+            <td>5万</td>
+            <td>5万</td>
+        </tr>
+        <tr>
+            <td align="right">设计费：</td>
+            <td>4.5万</td>
+            <td>4.5万</td>
+            <td>5.3万</td>
+        </tr>
+        <tr>
+            <td align="right">装修费：</td>
+            <td>24万</td>
+            <td>36万</td>
+            <td>60万</td>
+        </tr>
+        <tr>
+            <td align="right">餐桌/餐椅/餐柜/菜架：</td>
+            <td>4.66万</td>
+            <td>6.73万</td>
+            <td>11万</td>
+        </tr>
+        <tr>
+            <td align="right">锅/锅圈/电磁炉：</td>
+            <td>0.84万</td>
+            <td>1.19万</td>
+            <td>1.96万</td>
+        </tr>
+        <tr>
+            <td align="right">厨具：</td>
+            <td>3万</td>
+            <td>4.5万</td>
+            <td>7.5万</td>
+        </tr>
+        <tr>
+            <td align="right">餐具：</td>
+            <td>1.4万</td>
+            <td>2.1万</td>
+            <td>3.5万</td>
+        </tr>
+        <tr>
+            <td align="right">杂件：</td>
+            <td>0.8万</td>
+            <td>1.2万</td>
+            <td>2万</td>
+        </tr>
+        <tr>
+            <td align="right">(火锅底料等)调味品备货：</td>
+            <td>1.8万</td>
+            <td>2.55万</td>
+            <td>4.2万</td>
+        </tr>
+        <tr>
+            <td align="right">菜品备货费：</td>
+            <td>1.2万</td>
+            <td>1.7万</td>
+            <td>2.8万</td>
+        </tr>
+        <tr>
+            <td align="right">员工宿舍租金：</td>
+            <td>0.5万</td>
+            <td>0.5万</td>
+            <td>0.5万</td>
+        </tr>
+        <tr>
+            <td align="right">员工招聘培训费：</td>
+            <td>5万</td>
+            <td>5万</td>
+            <td>5万</td>
+        </tr>
+        <tr>
+            <td align="right">前期宣传费：</td>
+            <td>3万</td>
+            <td>3万</td>
+            <td>3万</td>
+        </tr>
+        <tr>
+            <td align="right">收银系统：</td>
+            <td>1.4万</td>
+            <td>1.4万</td>
+            <td>1.4万</td>
+        </tr>
+        <tr>
+            <td align="right"><b>预计总投资：</b></td>
+            <td><b>77万</b>(除房租)</td>
+            <td><b>95万</b>(除房租)</td>
+            <td><b>133万</b>(除房租)</td>
+        </tr>
+        </tbody></table>
+    <h2>火锅店投资回报期预算</h2>
+    <p>投资回报期的预算需要根据多方面的因素来估算，如餐位数、上客率、人均消费、毛利率、店内每月的工资，水电气费，税金等各种开支。通常中高档火锅店的人均消费在80元以上，毛利率60%左右，火锅店的经营时间只有中午和晚上两餐，味蜀吾老火锅的日均上客率根据地段餐位数通常在150%以上，地段好，面积小的店基本200%以上。</p>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb">
+        <tbody><tr>
+            <td colspan="4" align="center" class="th">按150%上客率计算火锅店加盟回报期</td>
+        </tr>
+        <tr>
+            <td width="20%" align="right">面积：</td>
+            <td>200m<sup>2</sup></td>
+            <td>300m<sup>2</sup></td>
+            <td>500m<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td align="right">总投资：</td>
+            <td>77万(除房租)</td>
+            <td>95万(除房租)</td>
+            <td>133万(除房租)</td>
+        </tr>
+        <tr>
+            <td align="right">餐位：</td>
+            <td>56</td>
+            <td>84</td>
+            <td>140</td>
+        </tr>
+        <tr>
+            <td align="right">上客率：</td>
+            <td>150%</td>
+            <td>150%</td>
+            <td>150%</td>
+        </tr>
+        <tr>
+            <td align="right">人均：</td>
+            <td>80元/人</td>
+            <td>80元/人</td>
+            <td>80元/人</td>
+        </tr>
+        <tr>
+            <td align="right">年利润：</td>
+            <td><b>88万左右</b></td>
+            <td><b>136万左右</b></td>
+            <td><b>166万左右</b></td>
+        </tr>
+        <tr>
+            <td align="right">回报期：</td>
+            <td><b>约11个月</b></td>
+            <td><b>约10个月</b></td>
+            <td><b>约10个月</b></td>
+        </tr>
+        </tbody></table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb">
+        <tbody><tr>
+            <td colspan="4" align="center" class="th">按200%上客率计算火锅店加盟回报期</td>
+        </tr>
+        <tr>
+            <td width="20%" align="right">面积：</td>
+            <td>200m<sup>2</sup></td>
+            <td>300m<sup>2</sup></td>
+            <td>500m<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td align="right">总投资：</td>
+            <td>77万(除房租)</td>
+            <td>95万(除房租)</td>
+            <td>133万(除房租)</td>
+        </tr>
+        <tr>
+            <td align="right">餐位：</td>
+            <td>56</td>
+            <td>84</td>
+            <td>140</td>
+        </tr>
+        <tr>
+            <td align="right">上客率：</td>
+            <td>200%</td>
+            <td>200%</td>
+            <td>200%</td>
+        </tr>
+        <tr>
+            <td align="right">人均：</td>
+            <td>80元/人</td>
+            <td>80元/人</td>
+            <td>80元/人</td>
+        </tr>
+        <tr>
+            <td align="right">年利润：</td>
+            <td><b>117万左右</b></td>
+            <td><b>180万左右</b></td>
+            <td><b>240万左右</b></td>
+        </tr>
+        <tr>
+            <td align="right">回报期：</td>
+            <td><b>约8个月</b></td>
+            <td><b>约7个月</b></td>
+            <td><b>约7个月</b></td>
+        </tr>
+        </tbody></table>
+    <h2>火锅店加盟投资费用分析</h2>
+    <p>火锅店加盟投资主要包括5个方面的成本，加盟费保证金、店面租金、设计装修费、设备设施费用、运营成本。根据不同的城市部分费用有所出入。通过这5项成本的估算就可以大致计算出加盟一个火锅店多少钱了。</p>
+    <b>火锅店加盟费多少钱？</b>
+    <p>加盟费和保证金是维护火锅品牌整体的市场形象，并在火锅餐饮连锁市场上攻城略地的有力武器。制定加盟费政策的依据是市场容量、市场接受的范围、竞争对手的价格策略和味蜀吾竞争战略。具体分为以下三个加盟费级别。北京/上海/广州/深圳/天津：<span class="jmf1">25.00万</span>，二三线城市：<span class="jmf2">20.00万</span>，县级城市：<span class="jmf3">18.00万</span>。保证金：<span class="bzj">5.00万</span>。四川火锅加盟品牌众多，各品牌加盟价格各有不同，相应提供的加盟支持也各有不同。</p>
+    <b>火锅店面租金</b>
+    <p>店面的租金根据不同城市，不同地段相差比较大，每平米租金从几十元到几百元不等，地段好的租金高投资成本高，租金便宜的人气不足上客率低。投资者可以根据自己所在城市地段来预算租金成本。根据味蜀吾老火锅多年开店的经验平均租金在100元/m<sup>2</sup>左右。所以按500m<sup>2</sup>的店铺来算，租金5万每月，租金在总投资预算中需要按压1付3来算就是20万的店面租金费用。</p>
+    <b>设计装修费</b>
+    <p>一个中高档火锅店的设计装修费是火锅店投资初期的一笔比较大的费用。包括各种装修材料，装饰，空调，吧台，小吃间，厨房改造，环境风格布置等，装修是提升消费体验的一个重要因素，要想火锅店有档次，有竞争力，装修费就不能省。所以要想开一家赚钱的火锅店，装修费2000元一m<sup>2</sup>都不过分。味蜀吾老火锅160家火锅加盟店的设计加装修费平均价格在1600左右。一家500平米的火锅店装修费80万左右。</p>
+    <b>设备设施费用</b>
+    <p>设备设施费用包括，餐桌，椅子，锅，电磁炉，厨具，餐具，等各种杂件的购置。这部分费用有厨房的，也有每桌的费用所以不能单靠面积，或桌数来计算。按味蜀吾老火锅统一配置的标准来算，一般300m<sup>2</sup>的店20万左右，500m<sup>2</sup>的店28万左右，800m<sup>2</sup>的店40万左右。</p>
+    <b>火锅店运营成本</b>
+    <p>运营成本是一项比较杂的费用，没有火锅经营管理经验的很难预算准确，前期的运营成本包括员工工资、宿舍，菜品、调味料备货费，广告宣传费，营销系统、收银系统等。此项费用需要根据火锅店实际情况来算，依味蜀吾160家火锅加盟店的开店经验一家300m<sup>2</sup>的店24万左右，500m<sup>2</sup>的店30万左右，800m<sup>2</sup>的店38万左右。</p>
+    <h2>独立开个火锅店要多少钱？</h2>
+    <p>独立开火锅店其经营不受其它餐饮企业的制约，完全独立经营，费用较少，以独资、入股、贷款为主，但一般情况规模较小，利润不高。适合于有丰富的经验，且能独立解决资金，人力资源等问题的个人投资，其优点：能根据市场的发展变化快速对经营品种、策略做出调整与适应，以满足消费者的需要；即保持自身的火锅特色，又能按照市场要求调整和创新锅品；员工关系密切，直接管理，利于调动积极性。当然也有期不足之处：由于规模较小，经营品种单一，可能会受到大型火锅企业的冲击，在市场竞争中禁不起风浪，发展潜力不大。
+    </p>
+    <p>独立开个火锅店相比火锅店加盟模式的投资少了加盟费和保证金服务费等费用，大约20万左右，在火锅店加盟投资费用上减去加盟费保证金就是独立开火锅店的投资费用。以中高档火锅店为例，300m<sup>2</sup>总投资大约110万，500m<sup>2</sup>总投资大约160万，800m<sup>2</sup>总投资大约240万。预算降了但也少了相应的加盟支持，没有足够的火锅店运营管理经验的人不适合这种独立开火锅店，由于没有相关经验在实际操作中可能浪费很多人力财力成本，将远远超过加盟费。</p>
+</div>
+<div style="height: 60px"></div>
+<div class="footer">
+    <a href="index.html">
+        <img src="../../assets/images/app/icon_home.png">
+        <p>返回首页</p>
+    </a>
+    <a href="tel:13808185982">
+        <img src="../../assets/images/app/icon_tel.png">
+        <p>免费电话</p>
+    </a>
+    <a href="contactUs.html">
+        <img src="../../assets/images/app/icon_liuyan.png">
+        <p>咨询留言</p>
+    </a>
+</div>
+</body>
+
+<script src="../../assets/lib/jquery-1.9.1.min.js"></script>
+<script src="../../assets/js/app-phone.js"></script>
+</html>
