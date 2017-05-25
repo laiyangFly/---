@@ -33,6 +33,7 @@ body{background:url(../images/bg.png) repeat;position: relative}
 .img-wrap a:first-child{margin-left: 0 !important;}
 .img-wrap a:last-child{margin-right: 0 !important;}
 .img-wrap a img{width: 100%;height: 100%}
+.img-wrap a:hover{position: relative;top:-5px}
 
 .footer{height: 246px;background:url(../images/topBg.png) repeat;}
 .footer .float_left{margin-top: 40px}
@@ -112,6 +113,101 @@ body{background:url(../images/bg.png) repeat;position: relative}
 .content_jm .tb tr:nth-child(odd) {background: #fbefda;}
 .content_jm .tb .th {height: 30px;font-size: 1.4em;background: #eed7aa;padding: 5px;text-align: center;color: #d8271c;text-shadow: 0 0 1px #d8271c;-webkit-text-shadow: 0 0 1px #d8271c;}
 .content_jm .tb tr td {padding: 5px;border-bottom: solid 1px #aaa;border-right: solid 1px #aaa;font-size: 12px;}
+
+/*加盟banner*/
+.swiper-banner{width:1100px; height:450px; margin:0 auto;}
+.swiper-banner dl {width:1200px; height:400px; margin:20px auto; position:relative; color:#333333; font-family:'宋体';}
+.swiper-banner dl  dt{position:absolute;left:0;width:40%;}
+.swiper-banner dl  dd{position:absolute;right:0;width:55%;}
+.swiper-banner dl  dd .button{margin-top:30px;}
+.swiper-banner dl  dd .button a {
+  display:inline-block; width:110px;text-align:center; line-height:28px; margin-right:20px;color:white;font-size:18px;
+  border-radius:50px; border-top:solid 1px #e2e2e2; box-shadow:2px 2px 5px #000000; -webkit-text-shadow:1px 1px 2px #000000; text-shadow:1px 1px 2px #000000;}
+.swiper-banner dl  dd .button a:hover{background:-webkit-linear-gradient(top,#d28400,#944900);background:linear-gradient(top,#d28400,#944900);}
+.swiper-banner dl  dd .button .a1 {background:#c37100;}
+.swiper-banner dl  dd .button .a2 {background:#6e5232;}
+
+.swiper-banner dl  dd h1 {margin-top:78px;font-size:34px;font-weight:400; }
+.swiper-banner dl  dd .title{margin-top:40px; position:relative;}
+.swiper-banner dl  dd .title h2 {font-size:26px;font-weight:400; position:absolute; top:5px; left:70px;line-height: 20px}
+.swiper-banner dl  dd .title p{position:absolute; bottom:0; left:70px;font-size:14px; color:#666;}
+.swiper-banner dl  dd .title span{display:inline-block; width:50px; height:50px; padding:2px; background:#ff4e00;  border-radius:5px;}
+.swiper-banner dl  dd .title span b{display:inline-block; width:44px; text-align:center; height:44px;line-height:44px; font-size:40px;background:#ff6600; border:solid 3px white; border-radius:5px; }
+
+.swiper-banner dl  dd .item{margin-top:20px;}
+.swiper-banner dl  dd .item span {display:inline-block; height:20px; background:url(../images/example/gg.png) no-repeat left center;padding:0 10px 0 25px;font-size:14px;}
+
+.swiper-banner dl  dd .memo {margin-top:50px;font-size:40px; text-shadow:0 0 2px #FFFFFF; -webkit-text-shadow:0 0 2px #FFFFFF; }
+.swiper-banner dl  dd .memo2{margin-top:20px; height:70px; color:#666; font-size:14px;}
+
+.join-title{width:100%; text-align:center; color:#c98c0a; margin:50px auto;}
+.join-title h2{font-size:40px; margin-bottom:20px;}
+
+/*案例*/
+.caseCoat{width:1040px; margin:0 auto; overflow:hidden; position:relative; color:#666;font-size: 14px}
+.caseCoat .next{position:absolute; top:40%; right:0; z-index:3;}
+.caseCoat .prev{position:absolute; top:40%; left:0; z-index:3;}
+.caseCoat ul li{width:900px; margin:0 auto 80px; height:280px; position:relative;}
+.caseCoat ul li h2{position:absolute; top:12px; width:320px; text-align:center; color:red; font-size:22px; font-weight:400;}
+.caseCoat ul li .img{position:absolute; left:10px; bottom:10px; border:solid 1px #888; box-shadow:0 0 10px 1px #888;}
+.caseCoat ul li .img img {width:280px; height:198px;}
+.caseCoat ul li div{position:absolute; left:350px; top:0; line-height:200%;}
+.caseCoat ul li div b{color:red; font-weight:400;font-size: 14px}
+.caseCoat ul li p{position:absolute; left:350px; bottom:0;}
+.caseCoat ul li p span{display:inline-block; width:70px; text-align:center;font-size:1.4em; margin-right:50px;}
+.caseCoat ul li p span a{font-size: 14px;display:inline-block;margin-bottom:10px; width:80px; height:77px; text-align:center; line-height:77px; color:white;  background:url(../images/app/green_bg.png) no-repeat;}
+.caseCoat ul li p span b{font-weight:400;}
+.caseCoat ul li .more{position:absolute; right:50px; bottom:40px; color:red; border:solid 1px red; border-radius:5px; padding:10px 30px;}
+/*案例*/
+
+/*荣誉*/
+.swiper-jp{width:1050px; height:200px; margin:50px auto;}
+.swiper-jp a{display:inline-block; width:255px; height:180px; text-align:center;}
+.swiper-jp a img{width:230px; height:160px;}
+/*荣誉*/
+
+/*加盟优势*/
+.ys{width:1050px; margin:50px auto; height:260px; position:relative;text-align:center;}
+.ys li{display:inline-block; width:19%; height:140px;}
+.ys li img{margin-top:20px; width:70px;}
+.ys li b{font-weight:400; font-size:1.4em; line-height:50px; color:red;}
+.ys li p{display:none; width:96%; position:absolute; top:160px; left:2%; text-align:left; font-size:14px; line-height:180%; text-indent:2em; color:#666;}
+.ys .cur{background:#ff4643;}
+.ys .cur b{color:white;}
+.ys .cur p{display:block;}
+
+/*加盟项目*/
+#item{width:1050px;margin:60px auto 0; height:180px; text-align:center; overflow:hidden;}
+#item li{display:inline-block; width:19%; height:100px; text-align:left; position:relative;}
+#item li .img{position:absolute; top:0px; width:55px; height:55px;}
+#item li .img img{margin-top: 13px}
+#item li .a{position:absolute; left:60px; top:3px; font-size:1.4em; color:#d1b070;}
+#item li a:hover{color:red;}
+#item li p{position:absolute; left:60px; top:30px; color:#d1b070;}
+
+/*实力*/
+.sl{width:1040px; margin:50px auto; height:450px; position:relative; background:url(../images/example/shili.png) no-repeat center center; }
+.sl dt{position:absolute; left:0; top:0; width:295px;}
+.sl dt div{margin-bottom:90px; position:relative;height:90px;}
+.sl dt div img{position:absolute; left:0; top:10px;}
+.sl dt div b{position:absolute;color:red;font-size:18px; left:70px; top:10px;}
+.sl dt div p{position:absolute;color:#666; left:70px; top:35px;}
+.sl dt div span{position:absolute; width:295px; height:90px; top:0;left:0; background:white; filter:alpha(opacity=10);-moz-opacity:0.1;-khtml-opacity: 0.1;opacity: 0.1;}
+
+.sl dd{position:absolute; right:0; top:0; width:290px;}
+.sl dd div{margin-bottom:90px; position:relative;height:90px;}
+.sl dd div img{position:absolute; right:0; top:10px;}
+.sl dd div b{position:absolute;color:red;font-size:18px; left:10px; top:10px;}
+.sl dd div p{position:absolute;color:#666; left:10px; top:35px; width:220px;}
+.sl dd div span{position:absolute; width:295px; height:90px; top:0;left:0; background:white; filter:alpha(opacity=10);-moz-opacity:0.1;-khtml-opacity: 0.1;opacity: 0.1;}
+/*实力*/
+
+.cj{width:1050px;height:560px; margin:0 auto;}
+.cj img{margin:3px;}
+
+.message{width:100%; height:420px; overflow:hidden;  color:white;  font-size:14px;}
+.message h2{font-size:36px; font-weight:400; line-height:100px; text-align:center;color: #c98c0a}
+.message .gbook{margin:0 auto;}
 
 /*菜品*/
 .content-diningHall{padding: 50px 0}
