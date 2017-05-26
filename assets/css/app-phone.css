@@ -14,10 +14,11 @@ a{text-decoration: none}
 .logo4 img{width: 100%}
 .logo-title {font-size: 16px;line-height: 1;color: #2e3200;margin-top: 4.2%;text-align: center}
 .index-menu{margin: 0 auto;margin-top: 10.7%;text-align: center}
-.index-menu a{width: 18%;margin: 0 2%;display: inline-block}
+.index-menu a{width: 18%;margin: 0 2%;display: inline-block;position: relative;z-index: 200}
 .index-menu a img{width: 100%;}
-.imgLogo3{width:147px;position: absolute;left: 0;bottom:0px}
-.imgLogo4{width:100px;position: absolute;right: 0;top: 0}
+.imgLogo3{width:147px;position: absolute;left: 0;bottom:0px;z-index: 1}
+.imgLogo4{width:100px;position: absolute;right: 0;top: 0;z-index: 1}
+.imgLogo5{width:300px;position: absolute;left: -137px;top: 0;z-index: 1}
 
 
 /*头*/
